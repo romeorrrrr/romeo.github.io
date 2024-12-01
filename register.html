@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="register.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="loginCard">
+      <p>Creeaza un cont nou</p>
+      <input
+        type="text"
+        id="profilePic"
+        placeholder="Profile Picture URL"
+        required
+      />
+      <input type="text" placeholder="Introdu email-ul tau.." id="email" />
+      <input type="password" placeholder="Intrudu parola ta..." id="password" />
+      <a href="/Log-In/log.html">Ai deja un cont ?</a>
+      <button type="button" onclick="checkValues()">Continua</button>
+      <p id="errorMessage"></p>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>

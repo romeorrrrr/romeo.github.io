@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="log.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="loginCard">
+      <p>Conecteaza-te</p>
+      <input
+        type="text"
+        placeholder="Introdu un email existent..."
+        id="email"
+      />
+      <input type="password" placeholder="Intrudu parola ta..." id="password" />
+      <a href="register.html">Nu ai un cont ?</a>
+      <button type="button" onclick="checkValues()">Continua</button>
+      <p id="errorMessage"></p>
+    </div>
+    <script src="log.js"></script>
+  </body>
+</html>
